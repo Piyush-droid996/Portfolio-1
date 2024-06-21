@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-1/static/css/main.864ba080.css",
+    "main.js": "/Portfolio-1/static/js/main.7af78ab3.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio-1/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-1/static/js/787.1ed0c42c.chunk.js",
+    "static/media/blog.jpg": "/Portfolio-1/static/media/blog.67b4b5fe6092792dac54.jpg",
+    "static/media/Home-main.png": "/Portfolio-1/static/media/Home-main.a5944778eb6371daf023.png",
+    "static/media/codeEditor.jpg": "/Portfolio-1/static/media/codeEditor.e1b8016de501c9b75a87.jpg",
+    "static/media/Piyush_Resume.pdf": "/Portfolio-1/static/media/Piyush_Resume.7dee8cc567c0b24779fe.pdf",
+    "static/media/chatify.jpg": "/Portfolio-1/static/media/chatify.ed0c314cd7086aca93c4.jpg",
+    "static/media/Passport_Photograph_..jpg": "/Portfolio-1/static/media/Passport_Photograph_..c20db7a1f2111f016260.jpg",
+    "static/media/about.png": "/Portfolio-1/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/Portfolio-1/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Portfolio-1/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio-1/index.html",
+    "main.864ba080.css.map": "/Portfolio-1/static/css/main.864ba080.css.map",
+    "main.7af78ab3.js.map": "/Portfolio-1/static/js/main.7af78ab3.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio-1/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-1/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.864ba080.css",
+    "static/js/main.7af78ab3.js"
+  ]
+}
