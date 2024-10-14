@@ -1,0 +1,54 @@
+/* Github.css */
+.github-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .project-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .github-calendar {
+    width: 100%;
+    max-width: 800px; /* Adjust as necessary */
+    margin: 0 auto; /* Center the calendar */
+  }
+  
+  .contributions-overview {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contributions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contributions-list li {
+    margin: 5px 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .project-heading {
+      font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+  
+    .contributions-overview {
+      font-size: 1rem; /* Adjust font size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .project-heading {
+      font-size: 1.2rem; /* Even smaller font size on extra small screens */
+    }
+  }
+  

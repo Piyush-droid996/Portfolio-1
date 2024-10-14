@@ -1,0 +1,31 @@
+.tech-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center align icons and text */
+    position: relative;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+  
+.tech-icons {
+    position: relative;
+    margin: 10px;
+}
+  
+.tech-icon-container:hover {
+    background: linear-gradient(45deg, #ff6b6b, #f06595); /* Gradient on hover */
+}
+  
+.tech-label {
+    margin-top: 8px; /* Space between icon and text */
+    font-size: 1rem;
+    color: #333; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+  
+.tech-icon-container:hover .tech-label {
+    color: white; /* Change text color on hover */
+}
