@@ -1,29 +1,31 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
   DiReact,
-  DiMongodb,
   DiJava,
   DiMysql,
   DiRedis,
   DiOpenshift,
 } from "react-icons/di";
-import { SiSpringboot, SiNodedotjs, SiSpringsecurity, SiMicrosoftazure, SiMicrosoftsqlserver } from "react-icons/si"; // Import Node.js icon
-import "./Techstack.css"; // Import the CSS file
+import {
+  SiSpringboot,
+  SiSpringsecurity,
+  SiMicrosoftazure,
+  SiMicrosoftsqlserver,
+} from "react-icons/si";
+import "./Techstack.css";
 
 function Techstack() {
   const techData = [
     { icon: <DiJava />, label: "Java" },
-   { icon: <SiSpringboot />, label: "Spring Boot" }, // Add Spring Boot
+    { icon: <SiSpringboot />, label: "Spring Boot" },
     { icon: <SiSpringsecurity />, label: "Spring Security" },
     { icon: <DiReact />, label: "ReactJS" },
-    { icon: <DiMysql />, label: "MYSQL" },
+    { icon: <DiMysql />, label: "MySQL" },
     { icon: <DiRedis />, label: "Redis" },
-    {icon: <DiOpenshift/>, label: "Openshift"},
-    {icon: <SiMicrosoftazure/>, label: "Micorsoft Azure"},
-    {icon:<SiMicrosoftsqlserver/>, label:"Microsoft Sql server"}
+    { icon: <DiOpenshift />, label: "OpenShift" },
+    { icon: <SiMicrosoftazure />, label: "Microsoft Azure" },
+    { icon: <SiMicrosoftsqlserver />, label: "Microsoft SQL Server" },
   ];
 
   return (
