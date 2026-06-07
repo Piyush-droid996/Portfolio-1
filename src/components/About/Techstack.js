@@ -1,19 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import { DiJavascript1, DiReact, DiMongodb, DiJava } from "react-icons/di";
-import { SiSpringboot, SiNodedotjs } from "react-icons/si"; // Import Node.js icon
-import './Techstack.css'; // Import the CSS file
+import {
+  DiJavascript1,
+  DiReact,
+  DiMongodb,
+  DiJava,
+  DiMysql,
+  DiRedis,
+  DiOpenshift,
+} from "react-icons/di";
+import { SiSpringboot, SiNodedotjs, SiSpringsecurity, SiMicrosoftazure, SiMicrosoftsqlserver } from "react-icons/si"; // Import Node.js icon
+import "./Techstack.css"; // Import the CSS file
 
 function Techstack() {
   const techData = [
-    { icon: <CgCPlusPlus />, label: "C++" },
-    { icon: <DiJavascript1 />, label: "JavaScript" },
-    { icon: <DiReact />, label: "React" },
-    { icon: <DiMongodb />, label: "MongoDB" },
     { icon: <DiJava />, label: "Java" },
-    { icon: <SiSpringboot />, label: "Spring Boot" }, // Add Spring Boot
-    { icon: <SiNodedotjs />, label: "Node.js" }, // Add Node.js
+   { icon: <SiSpringboot />, label: "Spring Boot" }, // Add Spring Boot
+    { icon: <SiSpringsecurity />, label: "Spring Security" },
+    { icon: <DiReact />, label: "ReactJS" },
+    { icon: <DiMysql />, label: "MYSQL" },
+    { icon: <DiRedis />, label: "Redis" },
+    {icon: <DiOpenshift/>, label: "Openshift"},
+    {icon: <SiMicrosoftazure/>, label: "Micorsoft Azure"},
+    {icon:<SiMicrosoftsqlserver/>, label:"Microsoft Sql server"}
   ];
 
   return (

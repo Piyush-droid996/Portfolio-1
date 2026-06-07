@@ -8,29 +8,54 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Piyush Saxena</span>
-            <br />
-            from <span className="purple">Morena, Madhya Pradesh, India.</span>
-            <br />
-            I have completed my PG-DAC from CDAC, Bangalore.
-            <br />
-            I also hold a B.Tech degree in Computer Science and Engineering from JNU, Jaipur.
+            Hi Everyone, I am <span className="purple">Piyush Saxena</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I am currently based in{" "}
+            <span className="purple">Bengaluru, Karnataka, India</span> and
+            working as an <span className="purple">Software Engineer at Capgemini</span>.
+            <br />
+            <br />
+            I have completed my <span className="purple">PG-DAC</span> from
+            CDAC Bengaluru and hold a{" "}
+            <span className="purple">
+              B.Tech in Computer Science & Engineering
+            </span>{" "}
+            from Jaipur National University.
+            <br />
+            <br />
+            My expertise lies in{" "}
+            <span className="purple">
+              Java, Spring Boot, REST APIs, SQL, Microservices, and React
+            </span>
+            . I enjoy building scalable applications, solving backend
+            challenges, and continuously improving my problem-solving skills.
+            <br />
+            <br />
+            Apart from coding, here are a few things I enjoy:
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Volleyball and Badminton
+              <ImPointRight /> Playing Badminton
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling to new places
+              <ImPointRight /> Playing Guitar
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading tech blogs and keeping up with the latest trends
+              <ImPointRight /> Solving DSA Problems
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Watching Thriller Movies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Following Cricket
             </li>
           </ul>
-          <footer className="blockquote-footer">Piyush</footer>
+
+          <footer className="blockquote-footer">
+            Piyush Saxena
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>
